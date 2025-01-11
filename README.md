@@ -1,7 +1,8 @@
 # Serverless Photo Gallery Application using AWS
 
 **Serverless Photo Gallery Application** is a cloud-based application using AWS services like **Lambda**, **API Gateway**, **S3**, **DynamoDB**, and **Cognito**. This application is built to explore the implementation of both **SQL** (Amazon RDS) and **NoSQL** (DynamoDB) environments. The system is deployed on an EC2 instance using Flask and showcases scalable and persistent solutions.
-
+## Important Notice
+**For security reasons, sensitive files such as keys, credentials, and configuration files will NOT be included in this repository.
 ---
 
 ## Features
