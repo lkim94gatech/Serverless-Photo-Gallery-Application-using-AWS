@@ -65,3 +65,36 @@ Run the following commands on your EC2 instance:
 sudo apt update
 sudo apt install python3-pip
 pip3 install exifread flask PyMySQL boto3 pytz bcrypt
+
+```
+## Running the Application
+
+### Start Flask Application
+
+#### SQL Variant:
+```bash
+python3 app.py
+```
+
+#### NoSQL Variant:
+```bash
+python3 app.py
+```
+
+## Testing
+
+### User Management
+- **Sign-Up**: Create an account with hashed password storage and email verification.
+- **Log-In**: Authenticate using session tokens.
+- **Cancel Account**: Delete user data and associated albums/photos.
+
+### Photo Operations
+- **Add Photo**: Upload and store photos in S3.
+- **Delete Photo**: Remove selected photos.
+- **Update Photo**: Modify titles, descriptions, and tags.
+
+### Album Operations
+- **Create Album**: Organize photos into albums.
+- **Delete Album**: Remove albums along with associated photos.
+
+
